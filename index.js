@@ -20,7 +20,7 @@ con.connect(function(err) {
   console.log("Connected!");
 });
 
-bot.login("NTU3NjU3MjQzMTc3NDUxNTkw.D3O8Vg.LxBBOd0GFFfJGHNIUyob6FooSfc");
+bot.login("NTU3NjU3MjQzMTc3NDUxNTkw.D3UVqw.qUquMET466uR4031MHIlYgGYg7w");
   const dailies = require("./dailies.json")
   const sql = require("sqlite");
   sql.open("./edited.sqlite");

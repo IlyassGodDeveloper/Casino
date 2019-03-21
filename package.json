@@ -1,0 +1,23 @@
+{
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "index.js.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "jimp": "0.2.28",
+    "math-expression-evaluator": "1.2.17",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.13",
+    "ms": "^2.1.1",
+    "pretty-ms": "^3.1.0",
+    "request": "^2.85.0",
+    "snekfetch": "^4.0.4",
+    "sqlite": "^3.0.2",
+    "mysql": "2.16.0"
+  }
+}

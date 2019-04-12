@@ -4,7 +4,7 @@ const fs = require("fs");
 const bot = new Discord.Client();
 const pretty = require("pretty-ms");
 const moment = require("moment");
-const prefix = "M"
+const prefix = "$"
 let gamesTime = 15000;
 
 var mysql = require('mysql');
@@ -20,7 +20,7 @@ con.connect(function(err) {
   console.log("Connected!");
 });
 
-bot.login("NTU3NjU3MjQzMTc3NDUxNTkw.D3UVqw.qUquMET466uR4031MHIlYgGYg7w");
+bot.login("NTYwODkyODI0NzYxOTI1NjMy.XLAHmg.ywKozzG85diAxCZWwrC8KpUN5Uw");
   const dailies = require("./dailies.json")
   const sql = require("sqlite");
   sql.open("./edited.sqlite");
